@@ -1,0 +1,244 @@
+/* Universal Styles */
+
+html{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  color: #4a4a4a;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.image-container {
+  max-width: 60%;
+  margin: 32px 24px;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.supporting {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding-top: 16px;
+}
+
+.section {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.text-block {
+  margin: 16px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.standout {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.detail,
+.courses {
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #7c7c7c;
+  line-height: 1.5;
+}
+
+.links a:hover, .terms a:hover {
+  color: #5194e3;
+}
+
+.detail {
+  padding: 8px 0px;
+}
+
+.courses{
+  padding-bottom: 8px;
+}
+
+.more-info {
+  text-decoration: none;
+  color: #5194e3;
+  font-size: 0.9rem;
+}
+
+/* Header Styles */
+
+header {
+  height: 64px;
+}
+
+nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  color: #4a4a4a;
+}
+
+.links.flex-box {
+  flex-grow: 1;
+  margin-right: 8px;
+}
+
+.links li a, #colmar {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+.links li {
+  margin-right: 16px;
+}
+
+#academy {
+  color: #9b9b9b;
+}
+
+.logo {
+  margin-left: 24px;
+}
+
+/* Start Styles */
+
+.start {
+  background-color: #d8d8d8;
+}
+
+.supporting a{
+  text-decoration: none;
+}
+
+.cta {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.cta:hover{
+  background-color: #5194e3;
+}
+
+.start .supporting {
+  width: 30%;
+  align-self: center;
+}
+
+.start .standout{
+  margin: 42px 0px;
+}
+
+/* Information Styles */
+
+.featured {
+  background-color: #f3f5f5;
+  padding-bottom: 32px;
+}
+
+.quote .title {
+  padding: 32px 0px 24px 0px;
+}
+
+.quote .name{
+  padding-top: 24px;
+  font-weight: 400;
+}
+
+.supporting.info {
+
+}
+
+.featured .supporting .information:last-child{
+  background-color: #d8d8d8;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-left: 1px solid #e0e2e2;
+}
+
+.info-image {
+  width: 35%;
+  height: auto;
+}
+
+/* Learning Styles */
+
+.learning {
+  background-color: #eaebec;
+}
+
+.classes {
+  padding: 32px 72px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.class {
+  width: 30%;
+  background-color: #ffffff;
+  min-height: 355px;
+  margin-bottom: 32px;
+}
+
+.class:hover {
+  box-shadow: 5px 5px 5px grey;
+  transition: box-shadow 400ms ease-in;
+  cursor: pointer;
+}
+
+
+/* Exhibit styles */
+
+.exhibit {
+  background-color: #f3f5f5;
+}
+
+.exhibit .supporting .information:first-child{
+  background-color: #d8d8d8;
+}
+
+.supporting.theses {
+  padding-top: 32px;
+}
+
+/* Footer Styles */
+
+.terms.flex-box {
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.legal.flex-box{
+  flex-grow: 1;
+}
+
+footer {
+  padding: 16px 24px;
+  border-top: 1px solid #e0e2e2;
+  background-color: #f3f5f5;
+  font-size: 0.9rem;
+  color: #7c7c7c;
+}
+/* Mobile */
+
+.mobile {
+  display:none;
+}
