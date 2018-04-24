@@ -49,11 +49,13 @@ img {
 .title {
   font-size: 36px;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .standout {
   font-size: 1.25rem;
   line-height: 1.4;
+  letter-spacing: .75px;
 }
 
 .detail,
@@ -163,10 +165,6 @@ nav {
   font-weight: 400;
 }
 
-.supporting.info {
-
-}
-
 .featured .supporting .information:last-child{
   background-color: #d8d8d8;
 }
@@ -244,6 +242,8 @@ footer {
 /* Mobile (phone, most tablets will display desktop)*/
 
 @media only screen and (max-width: 720px) {
+
+/* hide all desktop classes and display mobile */
   .desktop {
     display: none;
   }
@@ -252,6 +252,7 @@ footer {
     display:block;
   }
 
+/* mobile header styles */
   .mobile.logo{
     width: 100%;
   }
@@ -260,6 +261,7 @@ footer {
     justify-content: space-around;
   }
 
+/* start section modifications */
   .start.flex-box {
     flex-direction: column;
   }
@@ -278,6 +280,8 @@ footer {
   .start .title, .start .standout {
     text-align: left;
   }
+
+/* featured area modifications */
 
   .featured .supporting {
     width: 100%;
@@ -299,6 +303,8 @@ footer {
   .information .text-block{
     text-align: left;
   }
+
+/* classes area modifications */
 
   .classes {
     padding: 16px 16px 24px 16px;
@@ -327,6 +333,8 @@ footer {
   .learning, .featured .supporting .information:last-child {
     background-color: #f3f5f5;
   }
+
+/* add borders for content section divisions */
 
   .learning .title, .exhibit .title {
     border-top: 1px solid #e0e2e2;
